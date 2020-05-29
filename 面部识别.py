@@ -9,7 +9,7 @@
 # 导入cv2工具库，是的，opencv的导入名称是cv2而不是opencv
 import cv2
 # 读取一张本地图片：调用cv2中的imread函数，参数为图片文件的路径，返回一个Image对象
-img = cv2.imread('D:/Lena.jpg')
+img = cv2.imread('Lena.jpg')
 # 准备人脸识别引擎：这个部分我们暂且不聊，你就当作是调用一个实现人脸识别的应用程序了
 # 注意调用的格式，首先调用CascadeClassifier函数，顾名思义这个函数跟分类有关
 # 人脸识别就是机器学习领域中的分类任务
